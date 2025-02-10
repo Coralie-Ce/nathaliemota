@@ -12,7 +12,9 @@
 
 			<?php the_content(); ?>
 
-		<?php endwhile; endif; ?>
+		<?php endwhile; 
+    endif; 
+        ?>
       </section>
   </div>
 
