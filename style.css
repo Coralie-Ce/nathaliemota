@@ -4,3 +4,30 @@ Author: Coralie-Ce
 Description: Thème WordPress personnalisé pour Nathalie Mota.
 Version: 1.0
 */
+@font-face {
+    font-family: 'Poppins';
+    src: url('assets/fonts/Poppins-Light.ttf') format('ttf');
+    font-weight: 300;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'SpaceMono';
+    src: url('assets/fonts/SpaceMono-Regular.ttf') format('ttf');
+    font-weight: 400;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'SpaceMono';
+    src: url('assets/fonts/SpaceMono-Italic.ttf') format('ttf');
+    font-weight: 400;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'SpaceMono';
+    src: url('assets/fonts/SpaceMono-BoldItalic.ttf') format('ttf');
+    font-weight: 700;
+    font-style: italic;
+}
