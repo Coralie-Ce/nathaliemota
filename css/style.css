@@ -31,3 +31,8 @@ Version: 1.0
     font-weight: 700;
     font-style: italic;
 }
+
+body {
+    margin-top: 90px;
+    background-color: #FFFFFF;
+}
