@@ -2,11 +2,7 @@
 
 /* Menu princiapl*/ 
 
-function register_my_menus() {
-    register_nav_menus(
-        array(
-            'main-menu' => __('Menu Principal', 'nathaliemota')
-        )
-    );
+function register_my_menu() {
+    register_nav_menu( 'main-menu' => __( 'Menu principal', 'text-domain' ) );
 }
-add_action('after_setup_theme', 'register_my_menus');
+add_action( 'after_setup_theme', 'register_my_menu' );
