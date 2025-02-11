@@ -31,9 +31,3 @@ Version: 1.0
     font-weight: 700;
     font-style: italic;
 }
-
-
-.main-nav ul {
-    display: block !important;
-    background: red;
-}
